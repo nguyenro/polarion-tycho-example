@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Polarion Tycho Web
+Bundle-SymbolicName: com.polarion.tycho.build.web;singleton:=true
+Bundle-Version: 0.0.1.qualifier
+Automatic-Module-Name: com.polarion.tycho.build.web
+Eclipse-BundleShape: dir
+Require-Bundle: com.polarion.portal.tomcat;bundle-version="9.0.40",
+ com.polarion.platform;bundle-version="3.21.1",
+ com.polarion.tycho.build.service;bundle-version="0.0.1"
