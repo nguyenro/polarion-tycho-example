@@ -1,0 +1,8 @@
+target/
+*~
+.class
+.metadata
+bin/
+**/*.jar
+.polyglot.*
+.tycho-consumer-pom.xml
