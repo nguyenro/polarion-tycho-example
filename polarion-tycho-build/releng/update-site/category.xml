@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature id="com.polarion.tycho.build.helloworldsample" version="0.0.1">
+      <category name="extensions"/>
+   </feature>
+   <category-def name="extensions" label="Extensions"/>
+</site>
