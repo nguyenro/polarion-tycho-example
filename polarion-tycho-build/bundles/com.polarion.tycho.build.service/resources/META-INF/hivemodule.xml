@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module id="com.polarion.tycho.build.service" version="1.0.0">
+	<service-point id="myService"
+		interface="com.polarion.tycho.build.service.Service">
+		<invoke-factory>
+			<construct
+				class="com.polarion.tycho.build.service.internal.ServiceImpl" />
+		</invoke-factory>
+	</service-point>
+	
+	<contribution configuration-id="com.polarion.alm.richpages.velocityContext">
+		<item key="myService" value="service:com.polarion.tycho.build.service.myService" />
+	</contribution>
+	
+	<contribution configuration-id="com.polarion.alm.wiki.renderingContext">
+		<item key="myService" value="service:com.polarion.tycho.build.service.myService" />
+	</contribution>
+
+</module>

@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Polarion Tycho Service
+Bundle-SymbolicName: com.polarion.tycho.build.service
+Bundle-Version: 0.0.1.qualifier
+Automatic-Module-Name: com.polarion.tycho.build.service
+Export-Package: com.polarion.tycho.build.service
