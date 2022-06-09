@@ -27,8 +27,6 @@
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-maven-plugin</artifactId>
 				<version>${tycho.version}</version>
-				<!-- Enables tycho pom-less feature, requires org.eclipse.tycho:tycho-build 
-					to be defined in .mvn/extensions.xml -->
 				<extensions>true</extensions>
 			</plugin>
 			<plugin>
