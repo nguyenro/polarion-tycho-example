@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<site>
-   <feature id="com.polarion.platform.api" version="3.21.0">
-      <category name="polarion"/>
-   </feature>
-   <category-def name="polarion" label="Polarion"/>
-</site>
