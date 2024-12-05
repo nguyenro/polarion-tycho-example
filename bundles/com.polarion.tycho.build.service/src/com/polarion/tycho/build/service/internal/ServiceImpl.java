@@ -4,7 +4,8 @@ import com.polarion.tycho.build.service.Service;
 
 public class ServiceImpl implements Service {
 
-	public String doService() {
+	@Override
+    public String doService() {
 		return "Hello World!";
 	}
 }
