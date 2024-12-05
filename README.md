@@ -10,7 +10,7 @@ Maven wrappers have been provided to enable build execution without the user req
 
 ## How to build the example
 * Ensure that the `<location>` element in `releng/target-platform/target-platform.xml` points to your Polarion plugins path. 
-* Execute `mvnw clean verify` (Windows) or `./mvwn clean verify` (Linux) to run the build.
+* Execute `mvnw clean verify` (Windows) or `./mvnw clean verify` (Linux) to run the build.
 * On build success, the plugins will be available at `releng/update-site/repo-to-runnable`.
 
 ## Project overview
